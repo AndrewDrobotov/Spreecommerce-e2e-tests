@@ -1,0 +1,14 @@
+{
+  "name": "spreecommerce-e2e-tests",
+  "version": "1.0.0",
+  "description": "End-to-End tests for SpreeCommerce demo site",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
