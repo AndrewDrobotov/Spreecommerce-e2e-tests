@@ -1,10 +1,13 @@
-module.exports = {
-  validUser: {
-    email: "andrew_drobotov@icloud.com",  
-    password: "Testpassword1"               
+// utils/testData.js
+const users = {
+  valid: {
+    email: 'andrew_drobotov@icloud.com',
+    password: 'Testpassword1'
   },
-  invalidUser: {
-    email: "wrong_email@example.com",
-    password: "wrong_password"
+  invalid: {
+    email: 'wrongemail@mail.com',
+    password: 'wrongpass'
   }
 };
+
+module.exports = { users };
